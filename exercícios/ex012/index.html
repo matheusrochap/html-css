@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos Com Html5</title>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1> <!--Consome espaço do servidor do seu site-->
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video controls poster="imagens/lightning-thunder-storm-purple.jpg" width="250">
+        <source src="media/Meu-Video-720p.m4v" type="video/mp4">
+        <source src="media/meu-video.mp4" type="video/mp4">
+        <source src="media/meu-video.ogv" type="video/ogg">
+        <source src="media/Meu-Video2-720p.webm" type="video/webm">
+        <p>Seu navegador não possui compatibilidade com nossos formatos de vídeos.</p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1> <!--Não consome espaço do servidor do seu site-->
+    <iframe width="250" height="315" src="https://www.youtube.com/embed/LjKr-Y9jwcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo videos do Vimeo</h1><!--Não consome espaço do servidor do site-->
+    <iframe src="https://player.vimeo.com/video/668969495?h=398b6460e0" width="250" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

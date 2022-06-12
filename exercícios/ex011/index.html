@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias Em HTML5</title>
+</head>
+<body>
+    <h1>Imagéns Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente <br>aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="Imagem flexivel">
+    </picture>
+    <hr>
+    <h1>Reproduzindo audio</h1>
+    <audio preload="auto" autoplay controls loop>
+        <source src="media/Out On My Skateboard - Mini Vandals.mp3" type="audio/mpeg">
+        <source src="media/Rooster - Telecasted.ogg" type="audio/ogg">
+        <source src="media/Rooster - Telecasted.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

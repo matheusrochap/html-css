@@ -1,0 +1,17 @@
+@harset:UTF-8;
+
+body{background-color:rgb(27, 27, 27);
+    color:rgb(255, 255, 255);
+    text-align: center;
+
+}
+a{
+    color:rgb(204,204,204);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:none;
+    font-size: larger;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

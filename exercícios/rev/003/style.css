@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+    background-image: radial-gradient(circle,#C6EBBE,#95B2B0);
+    color:#647AA3;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color:#334195;
+    text-shadow:1px 1px 2px #293577d8;
+}
+mark{
+    background-color: #07F276;
+}
