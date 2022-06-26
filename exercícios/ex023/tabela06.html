@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+         body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table{
+            width:600px;
+            border-collapse:collapse;
+        }
+        caption{
+            font-weight:bolder;
+            color:white;
+            background-color:rgb(85, 85, 85);
+            font-size:22px;
+            padding:10px;
+            text-align:center;
+            border-radius:12px 12px 3px 3px;
+            text-decoration:underline;
+        }
+        th{
+            font-weight:bolder;
+            font-size:1.1em;
+        }
+        td,th{
+            text-align:center;
+            vertical-align:middle;
+            border:1px solid black;
+            padding:12px 20px;
+        }
+        div#container{
+            overflow-x:auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aliquam et harum est. Obcaecati tempore, excepturi ullam odit, commodi similique omnis, culpa esse magnam repellendus consectetur cupiditate quo. Laudantium, dolore.</p>
+    
+    <div id="container">
+        <table>
+            <caption>Tabela Responisva</caption>
+            <thead>
+                <th>Produto</th>
+                <th>Jan</th>
+                <th>Fev</th>
+                <th>Mar</th>
+                <th>Abr</th>
+                <th>Mai</th>
+                <th>Jun</th>
+            </thead>
+            <tbody>
+                <td>Produto</td>
+                <td>Jan</td>
+                <td>Fev</td>
+                <td>Mar</td>
+                <td>Abr</td>
+                <td>Mai</td>
+                <td>Jun</td>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
